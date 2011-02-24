@@ -1,0 +1,12 @@
+Chargify OSX Dashboard Widget changelog
+---------------------------------------
+
+version 0.2  -  24 Feb 2011
+  - changed API key preference input field to 'password' type
+  - added user preference for refresh time
+  - cleaned up the preferences (back) side
+  - changed dashboard link to a native GUI button
+  - moved dashboard button to bottom of widget
+
+version 0.1  -  22 Feb 2011
+  - initial prototype

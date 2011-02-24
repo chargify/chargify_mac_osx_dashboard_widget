@@ -1,0 +1,98 @@
+<html>
+<head>
+  <link rel="stylesheet" media="screen" type="text/css" href="chargify.css" /> 
+  <script type='text/javascript' src='chargify.js' charset='utf-8' />
+  <script type='text/javascript' src='chargify_prefs.js' charset='utf-8' />
+  <script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleInfoButton.js' charset='utf-8' />
+  <script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleAnimator.js' charset='utf-8' />
+  <script type='text/javascript' src='/System/Library/WidgetResources/AppleClasses/AppleButton.js' charset='utf-8' />
+</head>
+<body onload="setup();">
+  <div id="front">
+    <div id="header">
+      <h1>Chargify</h1>
+    </div>
+    <div id="main">
+      <div id="stats">
+        <div id="loading_icon" style="display: none;">
+          <img src="loading.gif">
+        </div>
+
+        <div class="field_header">Account:</div>
+        <div id="data_account" class="field_data">&nbsp;</div>
+
+        <div class="field_header">Domain:</div>
+        <div id="data_domain" class="field_data">&nbsp;</div>
+        <div class="clear"></div>
+
+
+        <h2>Revenue</h2>
+        <div class="field_header">Today:</div>
+        <div id="data_revenue_today" class="field_data">&nbsp;</div>
+        
+        <div class="field_header">This Month:</div>
+        <div id="data_revenue_this_month" class="field_data">&nbsp;</div>
+
+        <div class="field_header">This Year:</div>
+        <div id="data_revenue_this_year" class="field_data">&nbsp;</div>
+
+        <div class="field_header">Total:</div>
+        <div id="data_revenue_total" class="field_data">&nbsp;</div>
+        <div class="clear"></div>
+
+
+        <h2>Subscriptions</h2>
+        <div class="field_header">Today:</div>
+        <div id="data_subscriptions_today" class="field_data">&nbsp;</div>
+
+        <div class="field_header">Total:</div>
+        <div id="data_subscriptions_total" class="field_data">&nbsp;</div>
+      </div>
+
+
+    </div>
+    <div id="footer">
+      <div id="dashboardButton"></div>
+      <div id='infoButton'></div>
+    </div>
+  </div>
+  
+  <div id="back">
+    <div id="back_header">
+      <div id="version">
+        version <span id="version_text">0.2</span><br />
+        24 Feb 2011
+      </div>
+      <h1>Chargify</h1>
+    </div>
+    <div id="back_main">
+      <h2>Preferences</h2>
+      <div>
+        <div class="field_header">Subdomain:</div>
+        <div class="field_data"><input id="subdomain" type="text"></div>
+
+        <div class="field_header">API Key:</div>
+        <div class="field_data"><input id="api_key" type="password"></div>
+
+        <div class="field_header">Refresh:</div>
+        <div class="field_data">
+          <select id="refresh_time">
+            <option value="5">Every 5 minutes</option>
+            <option value="15">Every 15 minutes</option>
+            <option value="30">Every 30 minutes</option>
+            <option value="60">Every hour</option>
+            <option value="120">Every 2 hours</option>
+            <option value="240">Every 4 hours</option>
+            <option value="360">Every 6 hours</option>
+            <option value="720">Every 12 hours</option>
+            <option value="1440">Every 24 hours</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="back_footer">
+      <div id="doneButton"></div>
+    <div>
+  </div>
+</body>
+</html>

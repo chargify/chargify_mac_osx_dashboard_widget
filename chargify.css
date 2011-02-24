@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+	background: #CDE3AD url('Default.png') no-repeat;
+	width: 300px;
+	font-size: 12px;
+	font-family: 'Verdana', 'Helvetica', sans-serif;
+}
+
+#front {
+    display: block;
+    width: 300px;
+}
+ 
+#back {
+    display: none;
+    width: 300px;
+}
+
+#header, #back_header {
+    position: relative;
+    height: 50px;
+}
+
+#main, #back_main {
+    position: relative;
+    height: 215px;
+    margin: 5px 5px 0px 5px;
+}
+
+#footer, #back_footer {
+    position: relative;
+    height: 30px;
+}
+
+#header h1, #back_header h1 {
+    height: 50px;
+    margin: 0px;
+    background: url('header-logo.png') no-repeat;
+    text-indent: -9999px;
+}
+
+#version {
+    float: right;
+    margin-top: 22px;
+    margin-right: 4px;
+    color: white;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    text-align: right;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+
+div+h2 {
+    margin-top: 10px;
+}
+
+.field_header {
+    float: left;
+    width: 90px;
+}
+
+.field_data {
+    float: left;
+    width: 200px;
+}
+
+div.clear {
+    clear: both;
+}
+
+#infoButton {
+    position:absolute;
+    bottom: 16px;
+    right: 16px;
+    color: black;
+}
+
+#doneButton {
+    position: absolute;
+    bottom: 4px;
+    left: 125px;
+}
+
+#dashboardButton {
+    position: absolute;
+    height: 25px;
+    bottom: 2px;
+    left: 110px;
+}
+
