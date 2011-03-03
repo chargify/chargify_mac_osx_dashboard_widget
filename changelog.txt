@@ -1,6 +1,10 @@
 Chargify OSX Dashboard Widget changelog
 ---------------------------------------
 
+version 0.3  -  03 Mar 2011
+  - rounded the corners on the background (more Mac-like)
+  - added README.txt
+
 version 0.2  -  24 Feb 2011
   - changed API key preference input field to 'password' type
   - added user preference for refresh time
