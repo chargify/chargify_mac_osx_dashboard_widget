@@ -5,7 +5,7 @@ A Dashboard widget for Mac OS X which displays your Chargify site
 stats.
 
 Created by: Douglas Robertson
-Version:    0.3  --  03 March 2011
+Version:    0.4  --  21 April 2011
 
 
 Source Repository

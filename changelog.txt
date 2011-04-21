@@ -1,6 +1,11 @@
 Chargify OSX Dashboard Widget changelog
 ---------------------------------------
 
+version 0.4  -  21 Apr 2011
+  - changed XML request to run synchronously to handle invalid API key
+  - removed support for multiple instance (for now)
+  - display an error message if unable to retrieve stats
+
 version 0.3  -  03 Mar 2011
   - rounded the corners on the background (more Mac-like)
   - added README.txt
